@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #f0f2f5;
+}
+  h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    font-size: 44pt;
+    color: #0866ff;
+  }
+  .main-container{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+  }
+  .text{
+    font-size: 18pt;
+  }
+  .left{
+    width: 45%;
+    display: block;
+    float: left;
+    margin-top: 200px;
+  }
+  .right{
+    width: 45%;
+    float: right;
+    margin-top: 80px;
+  }
+  input{
+    display: inline-block;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    line-height: 16px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin: 10px 0 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+  }
+
+.box{
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  width: 396px;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.Login{
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 364px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Forgot{
+  color: #0866ff;
+  margin-top: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.line{
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+.Signup{
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 185px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  cursor: pointer;
+}
